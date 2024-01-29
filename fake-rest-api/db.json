@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "email": "milos.pavlovic@qaskills.io",
+      "first_name": "Milos",
+      "last_name": "Pavlovic"
+    },
+    {
+      "id": 3,
+      "email": "ema.jovanovic@qaskills.io",
+      "first_name": "Ema",
+      "last_name": "Jovanovic"
+    },
+    {
+      "email": "sasa.starcevic@qaskills.io",
+      "first_name": "Sasa",
+      "last_name": "Starcevic",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
